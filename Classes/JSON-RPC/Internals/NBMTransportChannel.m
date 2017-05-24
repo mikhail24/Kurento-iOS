@@ -184,7 +184,7 @@ static NSTimeInterval kChannelKeepaliveInterval = 20.0;
 {
     //check for socket status
     if (self.socket.readyState == SR_OPEN) {
-        [self.socket sendPing:nil];
+        [self.socket sendPing:nil error:nil];
     }
 }
 

@@ -28,7 +28,7 @@ PODS:
     - KurentoToolbox/Utils
     - KurentoToolbox/WebRTC
   - KurentoToolbox/Utils (0.3.0):
-    - CocoaLumberjack (~> 2.2.0)
+    - CocoaLumberjack (~> 2.4.0)
   - KurentoToolbox/WebRTC (0.3.0):
     - KurentoToolbox/Utils
   - Masonry (0.6.4)

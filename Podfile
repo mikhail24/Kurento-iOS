@@ -10,7 +10,7 @@ def common_target_pods
     pod 'SBJson', '~> 4.0.2'
 #    pod 'libjingle_peerconnection', '~> 11177.2.0'
     #pod 'nighthawk-webrtc', :podspec => './nighthawk-webrtc-chrome-m45-capture-xcode.podspec'
-    pod 'SocketRocket', '~> 0.4.2'
+    pod 'SocketRocket', '~> 0.5.1'
 end
 
 target 'KurentoToolbox-Static' do

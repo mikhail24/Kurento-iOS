@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.subspec 'JSON-RPC' do |ss|
     ss.source_files = 'Classes/JSON-RPC/**/*.{h,m}'
     ss.public_header_files = 'Classes/JSON-RPC/*.h'
-    ss.dependency 'SocketRocket', '~> 0.4.1'
+    ss.dependency 'SocketRocket', '~> 0.5.1'
     ss.dependency 'SBJson', '~> 4.0.2'
     ss.dependency 'KurentoToolbox/Utils'
   end
